@@ -62,6 +62,14 @@
             </span>
         </a>
     <% } %>
+    <% if (theme.about.csdn_username) { %>
+      <a class="icon-csdn" href="https://blog.csdn.net/<%- theme.about.csdn_username %>" target="_blank">
+          <span class="fa-stack fa-lg">
+              <i class="fa fa-circle fa-stack-2x"></i>
+              <i class="fa fa-stack-1x fa-inverse">C</i>
+          </span>
+      </a>
+    <% } %>
   </section>
 </div>
 
